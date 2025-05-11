@@ -82,7 +82,7 @@ function setupMenu() {
 
 /* Main Functions */ 
 function setupMain(){
-    loadScript(repoPath+'functions/questionSpoof.js', 'questionSpoof');
+    loadScript('https://raw.githubusercontent.com/sheeshmainlol/random-things/refs/heads/main/functions/questionSpoof.js', 'questionSpoof');
     loadScript(repoPath+'functions/videoSpoof.js', 'videoSpoof');
     loadScript(repoPath+'functions/minuteFarm.js', 'minuteFarm');
     loadScript(repoPath+'functions/spoofUser.js', 'spoofUser');
