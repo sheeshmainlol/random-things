@@ -1,4 +1,4 @@
-const ver = "V3.1.1";
+const ver = "V3.1.3";
 let isDev = false;
 
 const repoPath = `https://raw.githubusercontent.com/Niximkk/Khanware/refs/heads/${isDev ? "dev/" : "main/"}`;
@@ -82,7 +82,7 @@ function setupMenu() {
 
 /* Main Functions */ 
 function setupMain(){
-    loadScript('https://raw.githubusercontent.com/sheeshmainlol/random-things/refs/heads/main/functions/questionSpoof.js', 'questionSpoof');
+    loadScript(repoPath+'functions/questionSpoof.js', 'questionSpoof');
     loadScript(repoPath+'functions/videoSpoof.js', 'videoSpoof');
     loadScript(repoPath+'functions/minuteFarm.js', 'minuteFarm');
     loadScript(repoPath+'functions/spoofUser.js', 'spoofUser');
