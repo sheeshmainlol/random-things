@@ -1,5 +1,5 @@
 const ver = "V3.1.5";
-let isDev = true;
+let isDev = false;
 
 const repoPath = `https://raw.githubusercontent.com/sheeshmainlol/random-things/refs/heads/${isDev ? "dev/" : "main/"}`;
 
