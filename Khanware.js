@@ -77,7 +77,7 @@ function setupMenu() {
     loadScript(repoPath+'visuals/mainMenu.js', 'mainMenu');
     loadScript(repoPath+'visuals/statusPanel.js', 'statusPanel');
     loadScript(repoPath+'visuals/widgetBot.js', 'widgetBot');
-    if(isDev) loadScript(`https://raw.githubusercontent.com/sheeshmainlol/random-things/refs/heads/main/visuals/devTab.js`, 'devTab');
+    loadScript(repoPath+'visuals/devTab.js', 'devTab');
 }
 
 /* Main Functions */ 
