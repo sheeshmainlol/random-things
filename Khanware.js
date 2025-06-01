@@ -116,7 +116,7 @@ loadScript('https://cdn.jsdelivr.net/npm/toastify-js', 'toastifyPlugin')
     
     loadedPlugins.forEach(plugin => sendToast(`🪝 ${plugin} Loaded!`, 2000, 'top') );
     
-    hideSplashScreen();
+    
     setupMenu();
     setupMain();
     
