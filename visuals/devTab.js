@@ -1,5 +1,5 @@
 plppdo.on('domChanged', () => {
-    if (document.getElementById('khanwareTab')) return;
+    
 
     function createTab(name, href = '#') { 
         const li = document.createElement('li'); 
